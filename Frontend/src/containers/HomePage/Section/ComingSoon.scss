@@ -1,0 +1,69 @@
+.cha {
+    height    : 100%;
+    width     : 100%;
+    box-sizing: border-box;
+
+    .tren {
+        height: 10%;
+        width : 100%;
+    }
+
+    .duoi {
+        height: 80%;
+        width : 100%;
+
+        h2 {
+            text-align    : center;
+            text-transform: uppercase;
+            color         : #45c3d2;
+        }
+
+        .container-1 {
+            width           : 100%;
+            border-radius   : 5px;
+            background-color: #f2f2f2;
+            height          : 100%;
+            margin          : auto;
+            display         : flex;
+            justify-content : center;
+            align-items     : center;
+
+            .bgimg {
+                background-image   : url('../../../assets/images/bg.jpg');
+                height             : 80%;
+                width              : 50%;
+                background-position: center;
+                background-size    : cover;
+                position           : relative;
+                color              : white;
+                font-family        : "Courier New", Courier, monospace;
+                font-size          : 25px;
+            }
+
+            .topleft {
+                position: absolute;
+                top     : 0;
+                left    : 16px;
+            }
+
+            .bottomleft {
+                position: absolute;
+                bottom  : 0;
+                left    : 16px;
+            }
+
+            .middle {
+                position  : absolute;
+                top       : 50%;
+                left      : 50%;
+                transform : translate(-50%, -50%);
+                text-align: center;
+            }
+
+            hr {
+                margin: auto;
+                width : 40%;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.verify-email-container {
+    font-size     : 17px;
+    font-weight   : 600;
+    margin-top    : 30px;
+    text-align    : center;
+    text-transform: uppercase;
+
+    .verify-success {
+        color: green;
+    }
+
+    .verify-fail {
+        color: red;
+    }
+}

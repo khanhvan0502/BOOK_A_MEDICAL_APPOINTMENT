@@ -1,0 +1,22 @@
+.manage-handbook-container {
+    padding: 0 15px;
+
+    .hb-title {
+        text-align    : center;
+        margin        : 10px 0;
+        text-transform: uppercase;
+        font-weight   : 600;
+        font-size     : 17px;
+    }
+
+    .add-new-handbook {
+        .btn-save-handbook {
+            border          : none;
+            background-color: orange;
+            padding         : 8px 5px;
+            border-radius   : 4px;
+            min-width       : 70px;
+            margin          : 15px 0;
+        }
+    }
+}

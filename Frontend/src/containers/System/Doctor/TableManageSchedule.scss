@@ -1,0 +1,27 @@
+#TableManagerSchedule {
+    font-family    : Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width          : 100%;
+}
+
+#TableManagerSchedule td,
+#TableManagerSchedule th {
+    border : 1px solid #ddd;
+    padding: 8px;
+}
+
+#TableManagerSchedule tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#TableManagerSchedule tr:hover {
+    background-color: #ddd;
+}
+
+#TableManagerSchedule th {
+    padding-top     : 12px;
+    padding-bottom  : 12px;
+    text-align      : left;
+    background-color: #04aa60;
+    color           : white;
+}

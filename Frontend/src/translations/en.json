@@ -1,0 +1,186 @@
+{
+  "homeheader": {
+    "speciality": "Medical specialty",
+    "searchdoctor": "Choose a good specialty",
+    "health-facility": "Health facilities",
+    "select-room": "Choose a hospital, clinic",
+    "doctor": "Doctor",
+    "select-doctor": "Choose a good doctor",
+    "handbook": "Handbook",
+    "check-health": "General health check",
+    "support": "Support",
+    "welcome": "Welcome, ",
+    "clinic": "Clinic"
+  },
+  "banner": {
+    "title1": "MEDICAL PLATFORM",
+    "title2": "COMPREHENSIVE HEALTH CARE",
+    "child-1": "Specialized examination",
+    "child-2": "Remote examination",
+    "child-3": "General examination",
+    "child-4": "Medical test",
+    "child-5": "Mental health",
+    "child-6": "Dental examination"
+  },
+  "menu": {
+    "admin": {
+      "manage": "Management",
+      "manage-user": "User management",
+      "manage-doctor": "Doctor management",
+      "manage-admin": "Admin Management",
+      "crud": "CRUD user",
+      "crud-redux": "CRUD user redux",
+      "clinic": "Clinics",
+      "manage-clinic": "Clinics Management",
+      "specialty": "Specialty",
+      "manage-specialty": "Specialty Management",
+      "handbook": "Handbook",
+      "manage-handbook": "Handbook Management",
+      "history-patient": "Manage history patient",
+      "manage-statistical": "Statistical Management",
+      "statistical": "Statistical"
+    },
+    "doctor": {
+      "manage-schedule": "Manage medical appointments",
+      "manage-patient": "Medical examination confirmation",
+      "manage-infor": "Personal information management"
+    }
+  },
+  "manage-user": {
+    "title": "User Management",
+    "doctor": "Personal information management",
+    "add": "Add a new user",
+    "email": "Email",
+    "password": "Password",
+    "confirm-password": "Confirm password",
+    "change-password": "Change the password",
+    "first-name": "First name",
+    "last-name": "Last name",
+    "phone-number": "Phone number",
+    "address": "Address",
+    "birthday": "Date of birth",
+    "gender": "Gender",
+    "position": "Position",
+    "role": "Role",
+    "image": "Avatar",
+    "upload-file": "Upload photos",
+    "save": "Save user",
+    "edit": "Edit user"
+  },
+  "manage-clinic": {
+    "title": "Clinic Management",
+    "name": "Clinic name",
+    "image": "Clinic photo",
+    "upload-file": "Upload photos",
+    "address": "Clinic address",
+    "description": "Description of the clinic",
+    "button": "Save",
+    "list-clinics": "Clinics, medical facillity",
+    "new-clinic": "Add new clinic",
+    "add": "Add",
+    "update": "Update",
+    "edit-title": "Edit clinic"
+  },
+  "manage-specialty": {
+    "title": "Specialized Management",
+    "name": "Specialized name",
+    "image": "Specialized picture",
+    "upload-file": "Upload photos",
+    "description": "Specialized description",
+    "button": "Save",
+    "list-specialties": "Specialties"
+  },
+  "history-patient": {
+    "title": "Manage history patient",
+    "choose-date": "Choose a date"
+  },
+  "homepage": {
+    "outstanding-doctor": "Top doctors of the week",
+    "more-infor": "More Infor",
+    "specialty-popular": "Popular Specialties",
+    "medical-facility": "Medical facilities",
+    "handbook": "HandBook",
+    "list-handbook": "Top handbooks"
+  },
+  "manage-schedule": {
+    "title": "Manage medical appointments",
+    "choose-doctor": "A doctor",
+    "choose-date": "Choose a date",
+    "save": "Save",
+    "max-patients": "Max number of patients:"
+  },
+  "manage-patient": {
+    "title": "Medical examination confirmation",
+    "choose-date": "Choose a date of examination",
+    "number-patient-examined": "Patient examined",
+    "number-patient-cancel": "Patient canceled",
+    "sum": "Total money",
+    "total-scheduled": "Total number of bookings"
+  },
+  "patient": {
+    "detail-doctor": {
+      "schedule": "Schedule",
+      "no-schedule": "No appointments during this time, please choose another time!",
+      "choose": "Choose ",
+      "book-free": " and book (free)"
+    },
+    "extra-infor-doctor": {
+      "text-address": "Address of examination",
+      "price": "Examination price: ",
+      "detail": "See details",
+      "payment": "The patient can pay the cost in the form of:",
+      "hide-price": "Hide price list"
+    },
+    "booking-modal": {
+      "title": "Information to book a medical appointment",
+      "fullName": "Full name",
+      "phoneNumber": "Phone number",
+      "email": "Email",
+      "address": "Address",
+      "reason": "Reasons for medical examination",
+      "birthday": "Date of birth",
+      "genders": "Gender",
+      "btnConfirm": "Confirm",
+      "btnCancel": "Cancel",
+      "price": "Price",
+      "bookingPrice": "Free booking"
+    }
+  },
+  "admin": {
+    "manage-doctor": {
+      "title": "Create more doctor information",
+      "select-doctor": "Choose a doctor",
+      "intro": "Introduction",
+      "add": "Create infor",
+      "save": "Save infor",
+      "price": "Price",
+      "payment": "Payment",
+      "province": "Province",
+      "nameClinic": "Clinic's name",
+      "addressClinic": "Clinic's address",
+      "note": "Note",
+      "specialty": "Specialty",
+      "select-clinic": "Clinic",
+      "description-infor-doctor": "Detail Information Doctor",
+      "list-doctors": "Doctors"
+    },
+    "manage-specialty": {
+      "title": "Manage specialty",
+      "new-specialty": "Add new specialty",
+      "image": "Specialty image",
+      "name": "Speciialty name",
+      "add": "Add",
+      "update": "Update",
+      "edit-title": "Edit specialty"
+    },
+    "manage-handbook": {
+      "title": "Manage handbook",
+      "new-handbook": "Add new handbook",
+      "edit-title": "Edit handbook",
+      "image": "Handbook image",
+      "name": "Handbook name",
+      "add": "Add",
+      "update": "Update"
+    }
+  }
+}

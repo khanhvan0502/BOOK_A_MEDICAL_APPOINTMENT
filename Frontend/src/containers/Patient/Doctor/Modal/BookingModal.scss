@@ -1,0 +1,75 @@
+.booking-modal-container {
+    .booking-modal-content {
+        display       : flex;
+        flex-direction: column;
+
+        .booking-modal-header {
+            padding      : 10px;
+            border-bottom: 1px solid #ccc;
+
+            .right {
+                float    : right;
+                cursor   : pointer;
+                font-size: 15px;
+            }
+
+            .left {
+                font-size  : 15px;
+                font-weight: 600;
+                color      : #333;
+            }
+        }
+
+        .booking-modal-body {
+            padding: 10px;
+            height : 100%;
+
+            .error {
+                color: red;
+            }
+
+            .date-picker {
+                position: relative;
+                display : flex;
+
+                .choose-date {
+                    z-index   : 10;
+                    background: transparent;
+                    cursor    : pointer;
+                }
+
+                .calendar {
+                    position : absolute;
+                    top      : 50%;
+                    right    : 0;
+                    transform: translate(-50%, -50%);
+                    font-size: 20px;
+                    z-index  : 9;
+                }
+            }
+        }
+
+        .booking-modal-footer {
+            border-top     : 1px solid #ccc;
+            padding        : 10px;
+            display        : flex;
+            justify-content: flex-end;
+            gap            : 15px;
+
+            button {
+                border       : none;
+                outline      : none;
+                padding      : 5px 8px;
+                border-radius: 3px;
+            }
+
+            .btn-booking-confirm {
+                background-color: orange;
+            }
+
+            .btn-booking-cancel {
+                background-color: gray;
+            }
+        }
+    }
+}

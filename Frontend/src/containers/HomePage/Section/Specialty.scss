@@ -1,0 +1,22 @@
+.specialty-child {
+    padding: 5px;
+    cursor : pointer;
+
+    .customize-border {
+        padding: 20px;
+        border : 1px solid #d7d7d7;
+
+        .outer-bg {
+            display        : flex;
+            justify-content: center;
+        }
+
+        &:hover {
+            color: #45c3d2;
+        }
+    }
+
+    .specialty-name {
+        padding-top: 10px;
+    }
+}

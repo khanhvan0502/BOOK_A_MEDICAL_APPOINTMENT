@@ -1,0 +1,21 @@
+.clinic-child {
+    padding: 5px;
+    cursor : pointer;
+
+    .customize-border {
+        padding: 20px;
+
+        .outer-bg {
+            display        : flex;
+            justify-content: center;
+        }
+
+        &:hover {
+            color: #45c3d2;
+        }
+    }
+
+    .clinic-name {
+        padding-top: 10px;
+    }
+}
